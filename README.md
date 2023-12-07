@@ -17,34 +17,19 @@ Features
 Prerequisites:  
 
 ● A Google Colab account.  
-● A local copy of the sample.yaml configuration file.  
+● A local copy of the sample.yaml configuration file and code.ipynb file. 
 
-Configuration:  
+Running the Script:
+1. Open the Google Colab  
+2. From File Select the Upload Notebook option and Upload the code.ipynb file
+3. From the files tab on left toolbar upload the sample.yaml file
+4. Run the Script using play button
 
-Prepare the sample.yaml File:  
-● Create a sample.yaml file on your desktop or download in this repo
-● Define the endpoints you wish to monitor. End points fetch are written.  
+Sample Output:  
 
-Upload to Google Colab:  
+![Screen Shot 2023-12-07 at 3 24 10 PM](https://github.com/Harish-0404/SRE-Coding/assets/82347301/279cd2b0-04f2-4866-9cf3-f1c971afcc83)  
 
-● When you run the notebook, upload this file to the Colab environment using
-the file upload feature.  
 
-Running the Script in Google Colab:  
-
-Open a New Colab Notebook:  
-● Navigate to Google Colab and start a new Python 3 notebook.  
-Upload the Script and YAML File:  
-● Upload the health check script and your sample.yaml file to Colab.  
-Install Dependencies:  
-● Run the following in the first cell to install necessary packages:  
-● python  
-
-!pip install requests pyyaml  
-
-Run the Script:  
-● Run the script in a subsequent cell. The script will start monitoring the
-endpoints defined in your YAML file, logging their status and response times.  
  
 Customization  
 You can customize the script by modifying the logging levels, frequency of checks, and the
